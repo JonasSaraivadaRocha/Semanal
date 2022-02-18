@@ -1,0 +1,39 @@
+classe A: 0 ---126
+
+Classe B - 128 - 191
+ 
+classe C - 192 -- 223            (classe usadas pela internet A.B.C)
+
+classe D -- 224 --- 239 ( multicast - manda informação para vários hosts da rede )
+
+classe E --- 240 -- 255 ( teste de novas tecnologias )
+
+---------------
+rede interna Ips, restritos/ privador
+
+10.0.0.0
+127.16.0.0
+192.168.0.0
+
+--------------
+ip reservado
+127.0.0.0            loopback/localhgost
+169.254.0.0           a pipa (IP local para maquina de emergencia)
+0.0.0.0               ip de inicialização da placa de rede. 
+255.255.255.255        broadcast.
+
+ componentes de enreço IP 
+======================================
+
+identificação de rede                  || identificação de host. 
+
+-Classe A
+      1º octeto identifica a rede    --- disponivel 16.777.214 hosts. 
+
+-Classe B
+      1º e 2º oceteto identifica a rede ---- disponivel 65.534 hosts
+
+-Classe C
+      1° , 2º e 3º octetos identificam a rede. --- disponivel 254 hosts. 
+
+===============================================
