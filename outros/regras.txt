@@ -36,4 +36,4 @@ identificação de rede                  || identificação de host.
 -Classe C
       1° , 2º e 3º octetos identificam a rede. --- disponivel 254 hosts. 
 
-===============================================
+===============================================-
