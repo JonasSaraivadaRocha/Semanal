@@ -47,4 +47,3 @@ function valida_classe(oc1) {
     }
 }
 
-
